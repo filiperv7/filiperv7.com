@@ -7,7 +7,7 @@ import {
   DrawerFooter,
   DrawerTrigger
 } from '@/components/ui/drawer'
-import { List } from '@phosphor-icons/react'
+import { ListMinus } from 'lucide-react'
 import Link from 'next/link'
 import { NavigationMenu } from './navigation'
 
@@ -31,7 +31,7 @@ export function Header() {
           </h2>
           <Drawer>
             <DrawerTrigger>
-              <List size={40} />
+              <ListMinus size={40} />
             </DrawerTrigger>
             <DrawerContent className="h-52 flex flex-col w-[98%] mx-auto">
               <DrawerFooter className="flex-1">
