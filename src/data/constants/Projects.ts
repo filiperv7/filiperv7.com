@@ -1,8 +1,8 @@
 import IProject from '@/core/IProject'
 
-import Epiffania from '@/public/assets/Epiffania.png'
-import GoDev from '@/public/assets/GoDev.png'
-import Striker from '@/public/assets/Striker.png'
+import Epiffania from '@/public/assets/projects/Epiffania.png'
+import GoDev from '@/public/assets/projects/GoDev.png'
+import Striker from '@/public/assets/projects/Striker.png'
 
 const Projects: IProject[] = [
   {
