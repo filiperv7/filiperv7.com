@@ -1,12 +1,13 @@
 import '@/app/globals.css'
 import { Header } from '@/components/header'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter, JetBrains_Mono } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
+const jetBrains = JetBrains_Mono({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Início | Filipe Rodrigo',
+  title: 'Filipe Rodrigo',
   description:
     'Página inicial do portfólio de projetos do desenvolvedor Filipe Rodrigo Vasconcelos'
 }
@@ -18,9 +19,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br" className="dark">
-      <body className={inter.className}>
+      <body className={jetBrains.className}>
         <Header />
         {children}
+        <script async src="https://tally.so/widgets/embed.js"></script>
       </body>
     </html>
   )
