@@ -59,6 +59,15 @@ export default function FrontEndJunior3() {
           <p className="flex-1">Tenho bastante prática com o Tailwind CSS</p>
         </li>
       </ul>
+
+      <p className="pt-4">
+        Também preencho todos os requisitos opcionais, com exceção do último
+        (atuação Segurança da Informação, Compliance ou Anti-Fraude) e
+        conhecimento em SAST e DAST{' '}
+        <span className="font-bold italic">
+          (Mas já vou começar a estudar 😁)
+        </span>
+      </p>
     </Skeleton>
   )
 }

@@ -15,15 +15,6 @@ export function RequirementsSills({ children }: RequirementsSillsProps) {
       </h3>
 
       {children}
-
-      <p className="pt-4">
-        Também preencho todos os requisitos opcionais, com exceção do último
-        (atuação Segurança da Informação, Compliance ou Anti-Fraude) e
-        conhecimento em SAST e DAST{' '}
-        <span className="font-bold italic">
-          (Mas já vou começar a estudar 😁)
-        </span>
-      </p>
     </div>
   )
 }
