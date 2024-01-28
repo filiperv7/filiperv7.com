@@ -18,7 +18,7 @@ export function AlertInfo() {
           />
         </Button>
       </HoverCardTrigger>
-      <HoverCardContent className="w-96 p-4 border border-zinc-600 rounded-md backdrop-blur-md max-sm:max-w-96 max-sm:ml-2 leading-5">
+      <HoverCardContent className="max-w-[22.5rem] p-4 border border-zinc-500 rounded-md bg-zinc-900 opacity-95 max-sm:ml-5 leading-5">
         <p>Eu sei! Não se assuste!</p>
         <p>
           Mas, a verdade é que boa parte dos Devs hoje em dia não tem essa base
