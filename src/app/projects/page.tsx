@@ -1,7 +1,7 @@
 'use client'
 
-import { ProjectsCards } from '@/components/HomePage/projectsCards'
 import { Area } from '@/components/common/Area'
+import { ProjectsCards } from '@/components/projectsCards'
 
 export default function Projects() {
   return (

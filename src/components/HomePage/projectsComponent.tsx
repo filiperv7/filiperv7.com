@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { Area } from '../common/Area'
-import { ProjectsCards } from './projectsCards'
+import { ProjectsCards } from '../projectsCards'
 
 export function ProjectsComponent() {
   return (
