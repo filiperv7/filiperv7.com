@@ -40,6 +40,10 @@ export function Highlights() {
         </li>
         <li>Conhecimento e experiência com UX</li>
         <li>
+          Conseguir caminhar por diferentes frameworks sem muita dificuldade ou
+          gargalos
+        </li>
+        <li>
           Domínio completo do HTML, CSS e JS puros{' '}
           <span className="text-xs italic">
             (sem dependência de frameworks)
