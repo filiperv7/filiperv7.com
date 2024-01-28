@@ -46,7 +46,7 @@ export function Header() {
                       <button>Projetos</button>
                     </DrawerClose>
                   </Link>
-                  <Link href={'/contacts'} className="w-full text-center">
+                  <Link href={'/contact'} className="w-full text-center">
                     <DrawerClose className="hover:bg-zinc-600 w-3/5 py-1 rounded-2xl text-xl font-extrabold">
                       <button>Contato</button>
                     </DrawerClose>
