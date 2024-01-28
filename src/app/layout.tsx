@@ -1,3 +1,5 @@
+import { Analytics } from '@vercel/analytics/react'
+
 import '@/app/globals.css'
 import { Header } from '@/components/header'
 import type { Metadata } from 'next'
@@ -23,6 +25,8 @@ export default function RootLayout({
         <Header />
         {children}
         <script async src="https://tally.so/widgets/embed.js"></script>
+
+        <Analytics />
       </body>
     </html>
   )
