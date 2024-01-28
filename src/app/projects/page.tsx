@@ -1,5 +1,3 @@
-'use client'
-
 import { CTA } from '@/components/HomePage/cta'
 import { Area } from '@/components/common/Area'
 import { ProjectsCards } from '@/components/projectsCards'
