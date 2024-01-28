@@ -24,7 +24,12 @@ export function CTA() {
             </div>
           </div>
 
-          <p>Pode me chamar por e-mail, LinkedIn ou pelo botão abaixo.</p>
+          <p>
+            <Link href={'/contact'} className="underline">
+              Pode me chamar
+            </Link>{' '}
+            por e-mail, LinkedIn ou pelo botão abaixo.
+          </p>
           <button
             className={`flex items-center justify-between gap-2 bg-zinc-200 rounded-3xl py-[.1rem] px-5
         lg:text-lg text-zinc-900 font-extrabold
