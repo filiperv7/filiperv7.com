@@ -13,7 +13,7 @@ export function Top() {
           <span className="text-yellow-400">/&gt;</span>
         </span>
       </h1>
-      <h2 className="max-sm:text-xs text-sm lg:text-xl text-zinc-500 italic font-black mt-1">
+      <h2 className="text-sm lg:text-xl text-zinc-500 italic font-black mt-1">
         \\ Impulsionando seu negócio com design e código
       </h2>
 
