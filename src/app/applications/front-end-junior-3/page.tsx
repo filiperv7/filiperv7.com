@@ -1,5 +1,12 @@
 import { CheckCircle } from 'lucide-react'
+import { Metadata } from 'next'
 import { Skeleton } from '../../../components/applications/skeleton'
+
+export const metadata: Metadata = {
+  title: 'Filipe Rodrigo | Desenvolvedor Front-end Júnior III',
+  description:
+    'Página de apresentação ao recrutador da Melhor Envio para vaga de Desenvolvedor Front-end Júnior III - Filipe Rodrigo Vasconcelos'
+}
 
 export default function FrontEndJunior3() {
   return (

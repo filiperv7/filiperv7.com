@@ -1,6 +1,13 @@
 import { CTA } from '@/components/HomePage/cta'
 import { Area } from '@/components/common/Area'
 import { ProjectsCards } from '@/components/projectsCards'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Filipe Rodrigo | Projetos',
+  description:
+    'Página de apresentação dos projetos freelances e pessoais do Desenvolvedor Filipe Rodrigo Vasconcelos'
+}
 
 export default function Projects() {
   return (

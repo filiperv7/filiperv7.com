@@ -1,5 +1,12 @@
 import { CTA } from '@/components/HomePage/cta'
 import { Area } from '@/components/common/Area'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Filipe Rodrigo | Contato',
+  description:
+    'Página de contato para convidar o Desenvolvedor Filipe Rodrigo Vasconcelos para freelances e/ou vagas'
+}
 
 export default function Contact() {
   return (
