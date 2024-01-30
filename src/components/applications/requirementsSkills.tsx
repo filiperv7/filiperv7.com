@@ -1,7 +1,8 @@
 import { X } from 'lucide-react'
+import { ReactNode } from 'react'
 
 interface RequirementsSillsProps {
-  children: any
+  children: ReactNode
 }
 
 export function RequirementsSills({ children }: RequirementsSillsProps) {

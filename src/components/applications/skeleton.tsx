@@ -3,12 +3,13 @@ import { Area } from '@/components/common/Area'
 import { ProjectsCards } from '@/components/projectsCards'
 
 import Link from 'next/link'
+import { ReactNode } from 'react'
 import { Highlights } from './highlights'
 import { Presentation, PresentationProps } from './presentation'
 import { RequirementsSills } from './requirementsSkills'
 
 interface SkeletonProps extends PresentationProps {
-  children: any
+  children: ReactNode
 }
 
 export function Skeleton({
