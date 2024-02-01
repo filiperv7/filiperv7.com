@@ -44,6 +44,27 @@ export default function Contact() {
             </span>
           </p>
         </div>
+
+        <div className="pt-4">
+          <h2 className="max-lg:text-xl text-2xl font-semibold">
+            Quer baixar meu Currículo?
+          </h2>
+
+          <a
+            href="https://drive.google.com/file/d/1OIRaQtth_7QdL-HgpDCuNmRbc1XQmwzB/view?usp=sharing"
+            target="_blank"
+          >
+            <button
+              className={`
+                flex items-center justify-between gap-2 bg-zinc-200 rounded-3xl
+                py-[.1rem] px-5 mt-2 text-zinc-900 font-extrabold
+                lg:text-lg sm:hover:scale-110 sm:hover:bg-yellow-400 duration-500
+              `}
+            >
+              É só clicar aqui!
+            </button>
+          </a>
+        </div>
       </Area>
       <CTA />
     </div>
