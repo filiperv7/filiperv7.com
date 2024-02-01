@@ -1,4 +1,3 @@
-import { ArrowUpRight } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Area } from '../common/Area'
@@ -6,6 +5,7 @@ import { Area } from '../common/Area'
 import github from '@/public/assets/social/Github.svg'
 import instagram from '@/public/assets/social/Instagram.svg'
 import linkedin from '@/public/assets/social/LinkedIn.svg'
+import { ButtonTally } from './buttonTally'
 
 export function CTA() {
   return (
@@ -30,19 +30,8 @@ export function CTA() {
             </Link>{' '}
             por e-mail, LinkedIn ou pelo botão abaixo.
           </p>
-          <button
-            className={`flex items-center justify-between gap-2 bg-zinc-200 rounded-3xl py-[.1rem] px-5
-        lg:text-lg text-zinc-900 font-extrabold
-        sm:hover:scale-110 sm:hover:bg-yellow-400 duration-500
-        `}
-            data-tally-open="3yYp40"
-            data-tally-layout="modal"
-            data-tally-width="400"
-            data-tally-overlay="1"
-            data-tally-auto-close="1000"
-          >
-            Fale comigo <ArrowUpRight size={20} />
-          </button>
+
+          <ButtonTally />
         </div>
         <div className="border-t border-zinc-700 p-3 flex flex-1">
           <ul className="flex items-center justify-center gap-3 flex-1">
