@@ -9,6 +9,7 @@ import {
   DialogTitle,
   DialogTrigger
 } from '@/components/ui/dialog'
+import IProject from '@/core/IProject'
 import projects from '@/data/constants/Projects'
 import Image from 'next/image'
 import {
@@ -19,10 +20,16 @@ import {
   CardTitle
 } from './ui/card'
 
-export function ProjectsCards() {
+interface ProjectsCardsProps {
+  limit?: number
+}
+
+export function ProjectsCards({ limit }: ProjectsCardsProps) {
+  let projectsFormat: IProject[] = limit ? projects.slice(0, limit) : projects
+
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 min-[860px]:grid-cols-3 gap-5 pt-5">
-      {projects.map(project => (
+      {projectsFormat.map(project => (
         <Dialog key={project.title}>
           <DialogTrigger>
             <Card

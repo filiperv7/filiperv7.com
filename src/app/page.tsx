@@ -8,7 +8,7 @@ export default function Home() {
     <div>
       <Top />
 
-      <ProjectsComponent />
+      <ProjectsComponent limit={3} />
 
       <Skills />
 

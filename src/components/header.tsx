@@ -16,7 +16,10 @@ export function Header() {
     <header className="h-20 w-full border-b border-zinc-700 flex justify-center px-6 xl:px-0">
       <div className="h-full w-full max-w-5xl flex items-center justify-between">
         <h2 className="max-sm:hidden text-2xl sm:text-3xl font-bold cursor-pointer select-none">
-          <Link href={'/'}>
+          <Link
+            href="https://github.com/filiperv7/filiperv7.com"
+            target="_blank"
+          >
             Filipe<span className="text-yellow-400">.</span>
           </Link>
         </h2>
