@@ -33,10 +33,10 @@ const Projects: IProject[] = [
     image: Epiffania,
     shortDescription: 'Loja online de joias (em construção) | Freelancer',
     description:
-      'Loja online de joias (em construção) para a Epiffania Joias. Uma loja de joias prata 925 de duas estudantes de enfermagem do UNICEPLAC. Desenvolvido com Next 13 (React), GraphQL (usando o CMS Hygraph), TypeScript, Tailwind CSS PhosphorIcons, biblioteca de componentes Mantine, ShadcnUI e a biblioteca de animações Framer Motion',
+      'Catálogo de joiás para a a loja Epiffania Joias. Uma loja de joias em prata 925. Desenvolvido com Next 13 (React), GraphQL (usando o CMS Hygraph), TypeScript, Tailwind CSS, PhosphorIcons, biblioteca de componentes Mantine e ShadcnUI',
     type: 'Freelance',
     stack: '',
-    link: 'https://www.epiffania.com/'
+    link: 'https://epiffania.vercel.app/'
   },
   {
     title: 'Striker DF',
