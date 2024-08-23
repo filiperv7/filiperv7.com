@@ -51,7 +51,7 @@ export default function Contact() {
           </h2>
 
           <a
-            href="https://drive.google.com/file/d/1bqciri57221EjBUinIFMr9GE_H1-VeUE/view?usp=sharing"
+            href="https://www.canva.com/design/DAGIz-xtOQE/T67hJePLsT3PDaH__omF6Q/edit?utm_content=DAGIz-xtOQE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
             target="_blank"
           >
             <button
